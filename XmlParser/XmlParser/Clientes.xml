@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Clientes>
+	<Cliente>
+		<Id>1</Id>
+		<Nome>Gabriel Benedito Cauã Campos</Nome>
+		<Cpf>787.346.751-16</Cpf>
+		<Rg>32.335.407-5</Rg>
+		<DataNascimento>19/10/1985</DataNascimento>
+		<Sexo>Masculino</Sexo>
+		<Email>gabrielbeneditocauacampos_@fortlar.com.br</Email>
+		<Celular>(63) 99299-4536</Celular>
+		<Endereco>
+			<Cep>77826-710</Cep>
+			<Rua>Rua Nossa Senhora Aparecida</Rua>
+			<Numero>772</Numero>
+			<Bairro>Setor Alto Bonito</Bairro>
+			<Cidade>Araguaína</Cidade>
+			<Estado>TO</Estado>
+		</Endereco>
+	</Cliente>
+	<Cliente>
+		<Id>2</Id>
+		<Nome>Simone Brenda Flávia Ribeiro</Nome>
+		<Cpf>974.845.626-96</Cpf>
+		<Rg>24.954.114-2</Rg>
+		<DataNascimento>15/05/1985</DataNascimento>
+		<Sexo>Feminino</Sexo>
+		<Email>simonebrendaflaviaribeiro..simonebrendaflaviaribeiro@arcante.com.br</Email>
+		<Celular>(63) 99789-9386</Celular>
+		<Endereco>
+			<Cep>77001-034</Cep>
+			<Rua>Quadra 103 Norte Rua de Pedestre NO 9</Rua>
+			<Numero>375</Numero>
+			<Bairro>Plano Diretor Norte</Bairro>
+			<Cidade>Palmas</Cidade>
+			<Estado>TO</Estado>
+		</Endereco>
+	</Cliente>
+</Clientes>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cliente>
+	<Id>1</Id>
+	<Nome>Gabriel Benedito Cauã Campos</Nome>
+	<Cpf>787.346.751-16</Cpf>
+	<Rg>32.335.407-5</Rg>
+	<DataNascimento>19/10/1985</DataNascimento>
+	<Sexo>Masculino</Sexo>
+	<Email>gabrielbeneditocauacampos_@fortlar.com.br</Email>
+	<Celular>(63) 99299-4536</Celular>
+	<Endereco>
+		<Cep>77826-710</Cep>
+		<Rua>Rua Nossa Senhora Aparecida</Rua>
+		<Numero>772</Numero>
+		<Bairro>Setor Alto Bonito</Bairro>
+		<Cidade>Araguaína</Cidade>
+		<Estado>TO</Estado>
+	</Endereco>
+</Cliente>
