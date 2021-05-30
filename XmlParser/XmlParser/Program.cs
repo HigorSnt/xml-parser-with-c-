@@ -10,7 +10,7 @@ namespace XmlParser
     {
         static void Main(string[] args)
         {
-            string clienteFile = @"..\..\..\Cliente.xml";
+            const string clienteFile = @"..\..\..\Cliente.xml";
             XDocument xmlDocument = XDocument.Load(clienteFile);
 
             // Buscando elementos específicos de um xml
@@ -27,10 +27,12 @@ namespace XmlParser
             Console.WriteLine(cliente);
 
             // Realizando o parse de uma lista de elementos
-            string clientesFile = @"..\..\..\Clientes.xml";
+            const string clientesFile = @"..\..\..\Clientes.xml";
             XDocument clientesXmlDocument = XDocument.Load(clientesFile);
 
+            // Estrutura e funcionamento semelhante a um foreach
             List<Cliente> clientes = (from xml in clientesXmlDocument.Elements("Clientes").Elements("Cliente")
+                                      // Algo semelhante a uma consulta SQL, pode ser realizado wheres, groupby, orderby, joins
                                       select new Cliente
                                       {
                                           Id = long.Parse(xml.Element("Id").Value),
